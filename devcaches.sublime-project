@@ -5,7 +5,8 @@
 			"file_exclude_patterns":
 			[
 				"*.jar",
-				"*.swp"
+				"*.swp",
+				"*.sqlite"
 			],
 			"folder_exclude_patterns":
 			[
@@ -18,7 +19,8 @@
 				"__pycache__",
 				"tmp",
 				".db-data",
-				".volatile"
+				".volatile",
+				"packages"
 			],
 			"path": "."
 		}

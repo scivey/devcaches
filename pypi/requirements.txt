@@ -1,0 +1,4 @@
+pypicloud==0.5.1
+pypicloud[server]
+waitress==1.0.2
+
