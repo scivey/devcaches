@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  apt-cacher:
+    build:
+      context: ./containers/scivey/apt-cacher-ng
+    image: scivey/apt-cacher-ng:latest
+    ports:
+    - "3142:3142"
+    volumes:
+    - ./.db-data/apt-cacher:/var/cache/apt-cacher-ng
