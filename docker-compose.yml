@@ -8,3 +8,12 @@ services:
     - "3142:3142"
     volumes:
     - ./.db-data/apt-cacher:/var/cache/apt-cacher-ng
+  pypi-server:
+    image: codekoala/pypi:latest
+    ports:
+    - "9053:80"
+    volumes:
+    - ./.db-data/pypi-server:/srv/pypi
+    environment:
+      - PYPI_ROOT=/srv/pypi/data
+
