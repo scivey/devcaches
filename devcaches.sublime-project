@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.jar",
+				"*.swp"
+			],
+			"folder_exclude_patterns":
+			[
+				"build",
+				".vagrant",
+				".bin",
+				".env",
+				"node_modules",
+				".cache",
+				"__pycache__",
+				"tmp",
+				".db-data",
+				".volatile"
+			],
+			"path": "."
+		}
+	]
+}
+
